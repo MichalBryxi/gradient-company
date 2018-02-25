@@ -5,6 +5,7 @@
   margin-bottom: 0;
   grid-area: title;
   grid-area: title span 2;
+  font-weight: 400;
 }
 .comic, .comic-2 {
   background:#fff;
@@ -49,6 +50,7 @@
 .strip-title {
   grid-area: title / title;
   align-self: center;
+  font-weight: 400;
 }
 
 .evenboxinner{
@@ -65,7 +67,7 @@
   margin: 0 .5em;
   padding: .5em .5em;
   font-family: 'Delius';
-  font-size: 0.8em;
+  font-size: 0.85em;
   background-color: rgba(255,255,255,0.9);
   position: relative;
   border-width: 3px 4px 3px 5px;
@@ -119,8 +121,6 @@
 .character {
   font-size: 6em;
   line-height: 0.8em;
-  align-self: end;
-  justify-self: center;
   filter: grayscale(100%) drop-shadow(8px -8px 2px rgba(0, 0, 0, 0.4));
   /* margin-left: 0.1em; */
   /* grid-area: character; */
@@ -128,18 +128,22 @@
 
 .character-a {
   grid-area: left-character;
+  align-self: end;
+  justify-self: center;
+  position: relative;
 }
 .character-b {
   grid-area: right-character;
+  align-self: end;
+  justify-self: center;
+  position: relative;
 }
 .lolipop {
-  /* position: absolute; */
-  /* right: -0.2em; */
-  /* bottom: -0.3em; */
-  font-size: 0.5em;
-  transform: scaleX(-1) rotate(25deg);
-  align-self: end;
-  justify-content: end;
+  position: absolute;
+  left: 2.6em;
+  bottom: -0.15em;
+  font-size: 2em;
+  transform: scaleX(-1) rotate(15deg);
 }
 
 .box {
