@@ -10,6 +10,8 @@
 .comic, .comic-2 {
   background:#fff;
   font-family: 'Bangers', cursive;
+  display: inline-block;
+  margin: 1em;
 }
 .comic {
   font-size: 10px;
@@ -144,6 +146,17 @@
   bottom: -0.15em;
   font-size: 2em;
   transform: scaleX(-1) rotate(15deg);
+}
+
+.signature {
+  font-weight: 200;
+  font-size: 0.7em;
+  text-align: right;
+  font-family: 'Delius';
+}
+
+.signature a {
+  color: #666;
 }
 
 .box {
