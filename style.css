@@ -7,7 +7,7 @@
   grid-area: title span 2;
   font-weight: 400;
 }
-.comic, .comic-2 {
+.comic, .comic-2, .comic-3 {
   background:#fff;
   font-family: 'Bangers', cursive;
   display: inline-block;
@@ -18,6 +18,9 @@
 }
 .comic-2 {
   font-size: 20px;
+}
+.comic-3 {
+  font-size: 21px;
 }
 
 .strip {
