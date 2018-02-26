@@ -4,7 +4,9 @@ import Title from './Title';
 const Panel = function(props) {
   return (
     <div className="box">
-      <Title>{props.title}</Title>
+      {props.title && 
+        <Title>{props.title}</Title>
+      }
       {props.children}
     </div>
   );

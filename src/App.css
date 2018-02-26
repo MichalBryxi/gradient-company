@@ -95,11 +95,11 @@
 	margin-bottom: -20px;
 }
 
-.left-bubble {
+.bubble-left {
   grid-area: left-bubble;
 }
 
-.right-bubble {
+.bubble-right {
   grid-area: right-bubble;
 }
 
@@ -131,13 +131,13 @@
   /* grid-area: character; */
 }
 
-.character-a {
+.character-left {
   grid-area: left-character;
   align-self: end;
   justify-self: center;
   position: relative;
 }
-.character-b {
+.character-right {
   grid-area: right-character;
   align-self: end;
   justify-self: center;
