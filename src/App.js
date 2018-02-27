@@ -8,8 +8,15 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Issue01 />
-        <Issue02 />
+        <h1>Gradient company</h1>
+        <h2>Released issues</h2>
+          <Issue01 />
+        <h2>Drafts</h2>
+          <Issue02 />
+        <footer>
+          <p>Hosted on <a href="https://github.com/MichalBryxi/gradient-company">GitHub</a></p>
+          <p>Published on <a href="http://www.webtoons.com/en/challenge/gradient-company/list?title_no=155642">WebToon</a></p>
+        </footer>
       </div>
     );
   }
