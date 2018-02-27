@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 const Character = function(props) {
   let faceClassName = `character-${props.position}`;
   let bubbleClassName = `bubble bubble-${props.position}`;
+  let soundClassName = `sound sound-${props.position}`;
   let types = {
     'computer-man': '👨‍💻',
     'computer-woman': '👩‍💻'
@@ -16,6 +17,11 @@ const Character = function(props) {
         </p>
       }
       <div className={faceClassName}>
+        {props.sound &&
+          <p className={soundClassName}>
+            {props.sound}
+          </p>
+        }
         <span className="character">
           {face}
         </span>

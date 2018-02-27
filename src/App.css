@@ -68,6 +68,14 @@
   display: inline-block;
 }
 
+.sound {
+  margin: .5em .5em;
+  font-family: 'Delius';
+  transform: rotate(-10deg);
+  /* text-shadow: 1px 1px 0px #000; */
+  /* font-weight: 600; */
+}
+
 .bubble {
   margin: 0 .5em;
   padding: .5em .5em;
