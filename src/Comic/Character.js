@@ -11,9 +11,9 @@ const Character = function(props) {
   let face = types[props.type];
   return (
     <React.Fragment>
-      {props.children &&
+      {props.say &&
         <p className={bubbleClassName}>
-          {props.children}
+          {props.say}
         </p>
       }
       <div className={faceClassName}>
