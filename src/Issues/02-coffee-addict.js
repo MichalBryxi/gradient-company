@@ -20,7 +20,7 @@ class Issue extends Component {
           <Character 
             type="computer-man" 
             position="left" 
-            say="So ... what is it with the bag on your head?" />
+            say="So ... what is the story with the paper thing on your head?" />
           <Character 
             type="computer-woman" 
             position="right" 
@@ -33,7 +33,7 @@ class Issue extends Component {
           <Character 
             type="computer-man" 
             position="left" 
-            say="Is that ... a coffee bean bag?" />
+            say="Wait a minute ... is that ... a coffee bean bag?" />
           <Character 
             type="computer-woman" 
             position="right" 
