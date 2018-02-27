@@ -23,7 +23,10 @@ const Character = function(props) {
           </p>
         }
         <span className="character">
-          {face}
+          {props.children}
+          <span className="face">
+            {face}
+          </span>
         </span>
       </div>
     </React.Fragment>
