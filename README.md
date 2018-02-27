@@ -21,3 +21,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 `yarn start`
 
+### Contributing 
+
+This project is very immature. Learning process. If you'd like to help, raise a PR, create an issue or just [give me a shout](https://twitter.com/MichalBryxi). I have quite a few ideas in my head about enhancements.
