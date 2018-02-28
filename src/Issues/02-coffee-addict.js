@@ -7,7 +7,7 @@ import HeadBag from '../Comic/HeadBag';
 class Issue extends Component {
   render(props) {
     return (
-      <Comic title="Addict">
+      <Comic title="Addiction">
         
         <Panel>
           <Character type="computer-man" position="left" />
@@ -33,7 +33,7 @@ class Issue extends Component {
           <Character 
             type="computer-man" 
             position="left" 
-            say="Wait a minute ... is that ... a coffee bean bag?" />
+            say="Wait a minute ... is that a ... coffee bean bag?" />
           <Character 
             type="computer-woman" 
             position="right" 
