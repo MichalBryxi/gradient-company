@@ -10,6 +10,10 @@ const Comic = function(props) {
       <div className="strip">
         {props.children}
       </div>
+      
+      <div class="signature">
+        <a>Gradient company</a> by <a href="https://twitter.com/MichalBryxi" class="subscription">@MichalBryxi</a>
+      </div>
     </section>
   );
 }
