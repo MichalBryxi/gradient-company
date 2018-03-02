@@ -1,11 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Bangers);
 @import url('https://fonts.googleapis.com/css?family=Delius');
 
-.issue-title {
+h2.issue-title {
   margin-bottom: 0;
   grid-area: title;
   grid-area: title span 2;
   font-weight: 400;
+  font-family: 'Bangers', cursive;
+  text-align: left;
 }
 .comic, .comic-2, .comic-3 {
   background:#fff;
@@ -72,6 +74,8 @@
 .sound {
   /* margin: .5em .5em; */
   z-index: 30;
+  left: 0;
+  top: 1em;
   padding: .1em .5em;
   font-family: 'Delius';
   transform: rotate(-10deg);
@@ -187,7 +191,7 @@
 }
 
 .head-bag {
-  width: 4.3em;
+  width: 4.7em;
   height: 3em;
   border: solid 3px #000;
   top: 1.8em;
