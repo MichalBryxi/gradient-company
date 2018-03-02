@@ -5,7 +5,7 @@ import Character from '../Comic/Character';
 import Lollipop from '../Comic/Lollipop';
 
 class Issue extends Component {
-  render(props) {
+  render() {
     return (
       <Comic title="It will be fun they said...">
         

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Title = function(props) {
   return (
-    <div class="strip-title">
+    <div className="strip-title">
       <p className="evenboxinner">
         {props.children}
       </p>

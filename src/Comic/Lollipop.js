@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Lollipop = function(props) {
   return (
-    <div class="lollipop">🍭</div>
+    <div className="lollipop">🍭</div>
   );
 }
 
