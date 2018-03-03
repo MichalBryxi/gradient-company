@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Comic = function(props) {
   return (
-    <section>
+    <section class="comic">
       <h2 className="issue-title">
         {props.title}
       </h2>

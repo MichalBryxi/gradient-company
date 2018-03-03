@@ -38,8 +38,8 @@ class App extends Component {
                 <h2>Released issues</h2>
                   <Issue01 />
                   <Issue02 />
-                <h2>Drafts</h2>
                   <Issue03 />
+                <h2>Drafts</h2>
               </Grid.Column>
             </Grid.Row>
           </Grid>
