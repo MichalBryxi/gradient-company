@@ -6,6 +6,7 @@ import { Input, Grid } from 'semantic-ui-react'
 import Issue01 from './Issues/01-it-will-be-fun';
 import Issue02 from './Issues/02-coffee-addict';
 import Issue03 from './Issues/03-effectivity';
+import Issue04 from './Issues/04-balance-of-money';
 
 import HomepageLayout from './Layout/Homepage';
 
@@ -39,6 +40,7 @@ class App extends Component {
                   <Issue01 />
                   <Issue02 />
                   <Issue03 />
+                  <Issue04 />
                 <h2>Drafts</h2>
               </Grid.Column>
             </Grid.Row>

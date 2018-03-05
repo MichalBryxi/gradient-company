@@ -11,6 +11,8 @@
 1. Very nice showcase of latest & greatest **CSS** features.
 1. Also this was not obvious from the start, but I'm creating first ever fully **accessible** comics. It is possible to do virtually infinite zoom without losing quality. Also text readers works very well. And there is possibility to enable high contrast mode as well.
 1. Did you know that it's quite a pain to **translate** comics? Well, over here it's quite easy.
+1. It is quite challenging to create story with the limited set of tools - CSS &and; some emoji.
+1. There are emojis expressing feelings via emojis. How deep can we go?
 1. I wanted to create first ever comics that accepts **pull requests**. See a spelling error? Want to address discriminative language? Have idea for new episode? Comics is broken on your browser? Raise a PR!
 
 ## Technicalities 
