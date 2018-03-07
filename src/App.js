@@ -46,7 +46,7 @@ class App extends Component {
             </Grid.Row>
           </Grid>
           <footer>
-            <p>Hosted on <a href="https://github.com/MichalBryxi/gradient-company">GitHub</a></p>
+            <p>Source on <a href="https://gitlab.com/michal.bryxi/gradient-company">GitLab</a></p>
             <p>Published on <a href="http://www.webtoons.com/en/challenge/gradient-company/list?title_no=155642">WebToon</a></p>
           </footer>
         </HomepageLayout>
